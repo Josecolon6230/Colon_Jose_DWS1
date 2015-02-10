@@ -1,0 +1,45 @@
+body {
+	font-family: Georgia, Times, Serif;
+	color: #8E1A39;background:#000000
+	
+}
+
+p{
+	color: #EF5411;
+}
+	
+
+h1, h2, h3, h4,h5{
+	font-family: Arial, Verdana, sans-serif;
+}
+
+h1{
+	color: #8D3E28; background: #F0F2B9;
+	opacity: .7;
+}
+
+h2, h3, h4, h5{
+	color: #C229A5; background: #BEA64E;
+	opacity: .7;
+}
+
+strong{
+	color: #FFF800;
+}
+
+a:link{
+	color: #FFF800;
+}
+
+a:visited{
+	color: #BF0000;
+}
+
+a:hover{
+	color: #400000;
+}
+
+a:active{
+	color: #D9CBBA;
+}
+
