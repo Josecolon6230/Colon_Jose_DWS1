@@ -1,32 +1,82 @@
-body {
+body { /* font for entire page with color*/
 	font-family: Georgia, Times, Serif;
-	color: #8E1A39;background:#000000
+	color: #EF5411;background:#000000
 	
 }
 
-p{
+div{
+	height: 300px;
+	width: 400px;
+}
+
+#wrap{
+	width: 1200px;
+	margin: 0 auto;
+}	
+
+@font-face{
+	font-family: 'Anton', sans-serif;    
+}    
+
+#first{/* first paragraph*/
+	height: 75%;
+	width: 75%;
+	background: #000000;
 	color: #EF5411;
+	line-height: 100%;
+	font-weight: normal;
+	border: 4px dashed #F2F2F0;
+	padding	: 10px;
+	box-shadow: 10px 10px 5px #630806;
+	border-radius: 10px;
 }
-	
 
-h1, h2, h3, h4,h5{
-	font-family: Arial, Verdana, sans-serif;
+#second{/*second paragraph*/
+	height: 30%;
+	width: 75%;
+	background: #000000;
+	color: #EF5411;
+	line-height: 100%;
+	font-weight: normal;
+	border: 2px dashed #F2F2F0;
+	padding	: 5px 10px 10px 5px;
+	box-shadow: 10px 10px 5px #630806;
+	border-radius: 20px;
 }
 
-h1{
-	color: #8D3E28; background: #F0F2B9;
-	opacity: .7;
+h1, h2, h3, h4,h5{ /* font for headings */
+	font-family: 'Anton' , Arial, Verdana, sans-serif;
+	text-shadow: 2px 2px 4px #000000;
+	text-align: center; 
+}
+
+h1{ /* Opacity was added to the first heading*/
+	color: #8D3E28; background: #F0F2B9; 
+	opacity: .7;	
 }
 
 h2, h3, h4, h5{
 	color: #C229A5; background: #BEA64E;
 	opacity: .7;
+	font-size: 25px;
 }
+	
+
+li{ /* change the list bullest from circles to squares*/
+	list-style-type: square;
+	margin-right: 10px;
+	
+}
+
 
 strong{
 	color: #FFF800;
 }
 
+a{
+	text-decoration: none;
+}
+/* link Colors*/
 a:link{
 	color: #FFF800;
 }
@@ -36,7 +86,7 @@ a:visited{
 }
 
 a:hover{
-	color: #400000;
+	color: #5C0002;
 }
 
 a:active{
