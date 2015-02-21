@@ -1,0 +1,128 @@
+body { /* font for entire page with color*/
+	font-family: Georgia, Times, Serif;
+	color: #ffffff/*EF5411*/;/*background:#000000*/ /*did many changes and test with the colors and background*/
+	background-image: url("../images/creepyfreddy.jpg");
+	background-repeat: repeat;
+	background-position: top center;
+}
+
+
+div{/*keeps the page looking nice*/
+	height: 300px;
+	width: 400px;
+}
+
+
+/* Wrap is the size of the entire page*/
+#wrap{
+	width: 960px;
+	margin: 0 auto;
+}	
+
+/*@font-face{
+	font-family: 'Anton', sans-serif;    not needed 
+} */   
+
+#gameinfo{
+		
+		float:left top;
+		margin: 1%;
+}
+
+#first{/* first paragraph, Full control of the size of this paragraph*/
+	height: 70%;
+	width: 60%;
+	background: #000000;
+	color: #EF5411;
+	line-height: 100%;
+	font-weight: normal;
+	border: 4px dashed #F2F2F0;
+	padding	: 10px;
+	box-shadow: 10px 10px 5px #630806;
+	border-radius: 10px;
+	float: right;
+	margin: 1%;
+	
+}
+
+#second{/*second paragraph*/
+	height: 30%;
+	width: 75%;
+	background: #000000;
+	color: #EF5411;
+	line-height: 100%;
+	font-weight: normal;
+	border: 2px dashed #F2F2F0;
+	padding	: 5px 10px 10px 5px;
+	box-shadow: 10px 10px 5px #630806;
+	border-radius: 20px;
+	margin: 0 auto;
+	
+}
+
+h1, h2, h3, h4,h5{ /* font for headings */
+	font-family: 'Anton' , Arial, Verdana, sans-serif;
+	text-shadow: 2px 2px 4px #000000;
+	text-align: center; 
+	color: #C229A5; background: #BEA64E; 
+	opacity: .7;
+	
+}
+
+h1{ /* Opacity was added to the first heading*/
+	color: #8D3E28; background: #F0F2B9; font-size: 3em; 
+	opacity: .7;
+}
+
+
+h2{/*controls everthing that has todo with heading 2*/
+	color: #8D3E28; background: #BEA64E;
+	opacity: .7;
+	font-size: 2em;color:#C229A5;
+	width: 60%;
+	
+	
+}
+
+h3, h4, h5{/*controls headings 3,4,5*/
+	color: #C229A5; background: #BEA64E; 
+	opacity: .7;
+	font-size: 2em;
+}
+
+
+	
+
+li{ /* change the list bullest from circles to squares*/
+	list-style-type: square;
+	margin-right: 10px;
+	
+}
+
+
+
+
+strong{
+	color: #FFF800;
+}
+
+a{
+	text-decoration: none;
+}
+/* link Colors*/
+a:link{
+	color: #FFF800;
+}
+
+a:visited{
+	color: #BF0000;
+}
+
+a:hover{
+	color: #5C0002;
+}
+
+a:active{
+	color: #D9CBBA;
+}
+
