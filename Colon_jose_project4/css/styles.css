@@ -3,14 +3,20 @@ body { /* font for entire page with color*/
 	color: #ffffff/*EF5411*/;/*background:#000000*/ /*did many changes and test with the colors and background*/
 	background-image: url("../images/creepyfreddy.jpg");
 	background-repeat: repeat;
-	background-position: top center;
+	background-position: top;
+}
+#navcontainer ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+#navcontainer ul li{
+	display: inline-block;
+	padding: .2em 1em;
+	background-color:#FF8000;
 }
 
 
-div{/*keeps the page looking nice*/
-	height: 300px;
-	width: 400px;
-}
 
 
 /* Wrap is the size of the entire page*/
@@ -66,7 +72,7 @@ h1, h2, h3, h4,h5{ /* font for headings */
 	text-shadow: 2px 2px 4px #000000;
 	text-align: center; 
 	color: #C229A5; background: #BEA64E; 
-	opacity: .7;
+	/*opacity: .7;*/
 	
 }
 
@@ -78,7 +84,7 @@ h1{ /* Opacity was added to the first heading*/
 
 h2{/*controls everthing that has todo with heading 2*/
 	color: #8D3E28; background: #BEA64E;
-	opacity: .7;
+	/*opacity: .7;*/
 	font-size: 2em;color:#C229A5;
 	width: 60%;
 	
@@ -87,10 +93,21 @@ h2{/*controls everthing that has todo with heading 2*/
 
 h3, h4, h5{/*controls headings 3,4,5*/
 	color: #C229A5; background: #BEA64E; 
-	opacity: .7;
+	/*opacity: .7;*/
 	font-size: 2em;
 }
 
+
+#search{
+	float: right;
+	
+}
+
+#signin{
+	float: right;
+	border: 2px groove #C229A5;
+	color:#BEA64E;
+}
 
 	
 
